@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio de Milena Guevara, estudiante de Diseño Gráfico Digital en Perú."
+    />
+    <title>Milena Guevara | Diseñadora Gráfica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#inicio" class="brand" aria-label="Inicio">Milena Guevara</a>
+        <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" aria-label="Navegación principal">
+          <a href="#inicio">Inicio</a>
+          <a href="#sobre-mi">Sobre mí</a>
+          <a href="#trabajos">Trabajos</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Diseño con creatividad</p>
+            <h1>
+              <span class="text-light">Diseñadora</span>
+              <span class="text-accent">Gráfica</span>
+            </h1>
+            <p class="hero-text">
+              Estudiante de Diseño Gráfico Digital con pasión por crear piezas visuales
+              claras, modernas y con impacto.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#contacto">Contáctame</a>
+              <a class="btn btn-secondary" href="assets/cv-milena-guevara.pdf" target="_blank" rel="noreferrer">Descargar CV</a>
+            </div>
+            <ul class="hero-metrics" aria-label="Información destacada">
+              <li>
+                <strong>2025</strong>
+                <span>En formación</span>
+              </li>
+              <li>
+                <strong>70%</strong>
+                <span>Inglés</span>
+              </li>
+              <li>
+                <strong>4+</strong>
+                <span>Habilidades</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Ilustración de diseño gráfico">
+            <img src="assets/img/hero-illustration.svg" alt="Ilustración de persona trabajando en diseño gráfico" />
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre-mi" class="section about">
+        <div class="container about-grid">
+          <div class="about-copy">
+            <p class="section-tag">Sobre mí</p>
+            <h2>Sobre <span class="text-accent">mí</span></h2>
+            <p>
+              Estudiante de Diseño Gráfico Digital, con sólida formación académica y
+              habilidades aplicables al entorno profesional. Destaco por mi capacidad
+              de trabajo en equipo, aportando ideas creativas e innovadoras para el
+              desarrollo de proyectos visuales de calidad. Me caracterizo por ser una
+              persona paciente, proactiva y comprometida, con alta disposición para
+              asumir responsabilidades y continuar aprendiendo.
+            </p>
+          </div>
+          <div class="about-visual">
+            <img src="assets/img/about-illustration.svg" alt="Ilustración de diseñadora con creatividad" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-tag">Habilidades</p>
+            <h2>Competencias</h2>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card">
+              <h3>Técnicas</h3>
+              <ul class="skill-list">
+                <li><i data-lucide="pen-tool"></i> Corel Draw / Painter</li>
+                <li><i data-lucide="image"></i> Adobe Photoshop</li>
+                <li><i data-lucide="palette"></i> Adobe Illustrator</li>
+                <li><i data-lucide="camera"></i> Fotografía / edición</li>
+              </ul>
+            </article>
+
+            <article class="skill-card">
+              <h3>Blandas</h3>
+              <ul class="skill-list">
+                <li><i data-lucide="sparkles"></i> Creatividad</li>
+                <li><i data-lucide="users"></i> Trabajo en equipo</li>
+                <li><i data-lucide="message-circle"></i> Comunicación</li>
+                <li><i data-lucide="briefcase"></i> Organización</li>
+                <li><i data-lucide="rocket"></i> Disposición al aprendizaje</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section education">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-tag">Educación</p>
+            <h2>Formación académica</h2>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">2025 – presente</span>
+                <h3>SENATI</h3>
+                <p>Cursando la carrera técnica de Diseño Gráfico Digital.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="trabajos" class="section works">
+        <div class="container">
+          <div class="section-heading row-between">
+            <div>
+              <p class="section-tag">Portafolio</p>
+              <h2>Mis trabajos recientes</h2>
+            </div>
+            <div class="project-filters" aria-label="Filtrar proyectos">
+              <button class="filter-btn active" data-filter="all" type="button">Todos</button>
+              <button class="filter-btn" data-filter="branding" type="button">Branding</button>
+              <button class="filter-btn" data-filter="edicion" type="button">Edición</button>
+              <button class="filter-btn" data-filter="ilustracion" type="button">Ilustración</button>
+            </div>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card" data-category="branding">
+              <img src="assets/img/proyectos/proyecto-branding.svg" alt="Proyecto de branding - EDITABLE" />
+              <div class="project-info">
+                <span class="project-tag">Branding</span>
+                <h3>Proyecto de branding — EDITABLE</h3>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="edicion">
+              <img src="assets/img/proyectos/proyecto-edicion.svg" alt="Proyecto de edición fotográfica - EDITABLE" />
+              <div class="project-info">
+                <span class="project-tag">Edición</span>
+                <h3>Edición fotográfica para redes — EDITABLE</h3>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="ilustracion">
+              <img src="assets/img/proyectos/proyecto-ilustracion.svg" alt="Proyecto de ilustración - EDITABLE" />
+              <div class="project-info">
+                <span class="project-tag">Ilustración</span>
+                <h3>Pieza ilustrativa editorial — EDITABLE</h3>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="branding">
+              <img src="assets/img/proyectos/proyecto-identity.svg" alt="Proyecto de identidad visual - EDITABLE" />
+              <div class="project-info">
+                <span class="project-tag">Branding</span>
+                <h3>Identidad visual comercial — EDITABLE</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section languages">
+        <div class="container small-container">
+          <div class="section-heading">
+            <p class="section-tag">Idiomas</p>
+            <h2>Dominio verbal</h2>
+          </div>
+
+          <div class="language-item" aria-label="Inglés, 70 por ciento">
+            <div class="language-header">
+              <span>Inglés</span>
+              <span>70%</span>
+            </div>
+            <div class="progress-bar">
+              <span style="width: 70%;"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="section contact">
+        <div class="container contact-grid">
+          <div class="contact-card form-card">
+            <p class="section-tag">Contacto</p>
+            <h2>Escríbeme</h2>
+            <form id="contactForm" action="https://formspree.io/f/tu-id-de-formspree" method="POST" novalidate>
+              <label>
+                <span>Nombre</span>
+                <input type="text" name="name" placeholder="Tu nombre" required />
+              </label>
+              <label>
+                <span>Email</span>
+                <input type="email" name="email" placeholder="tuemail@ejemplo.com" required />
+              </label>
+              <label>
+                <span>Mensaje</span>
+                <textarea name="message" rows="5" placeholder="Cuéntame sobre tu proyecto" required></textarea>
+              </label>
+              <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+            </form>
+          </div>
+
+          <aside class="contact-card info-card">
+            <p class="section-tag">Datos directos</p>
+            <h2>Contáctame</h2>
+            <ul class="contact-list">
+              <li>
+                <i data-lucide="phone"></i>
+                <span>+51 991 188 799</span>
+              </li>
+              <li>
+                <i data-lucide="mail"></i>
+                <span>milenita020105@gmail.com</span>
+              </li>
+              <li>
+                <i data-lucide="map-pin"></i>
+                <span>Ferreñafe, Lambayeque, Perú</span>
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div class="footer-brand">
+          <span>Milena Guevara</span>
+        </div>
+
+        <div class="social-links" aria-label="Redes sociales">
+          <!-- EDITABLE: reemplazar con links reales -->
+          <a href="https://www.instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram">
+            <i data-lucide="camera"></i>
+          </a>
+          <a href="https://www.behance.net" target="_blank" rel="noreferrer" aria-label="Behance">
+            <i data-lucide="briefcase"></i>
+          </a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <i data-lucide="globe"></i>
+          </a>
+        </div>
+
+        <p>© 2026 Milena Guevara. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
