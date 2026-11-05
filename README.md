@@ -55,7 +55,7 @@ La información principal del portafolio corresponde a los datos reales del CV:
 
 - Nombre: Milena Guevara
 - Rol: Estudiante de Diseño Gráfico Digital
-- Teléfono: +51 991 188 799
+
 - Correo: milenita020105@gmail.com
 - Ubicación: Ferreñafe, Lambayeque, Perú
 - Educación: SENATI (2025 – presente)
